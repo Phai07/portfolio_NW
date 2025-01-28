@@ -1,66 +1,98 @@
-export const header = {
-  homepage: "https://port.nongmolz.xyz",
-  title: "MOLZ",
-};
+import aboutpic from "../components/Access/ME.JPG"
 
-export const about = {
-  name: "ANON KREETHAWATE",
-  role: "Software Developer",
+const header = {
+  // all the properties are optional - can be left empty or deleted
+  homepage: '',
+  title: 'NW.',
+}
+
+const about = {
+  photo:aboutpic,
+  // all the properties are optional - can be left empty or deleted
+  name: 'NATTAWUT WANPHEN',
+  role: 'SOFTWARE DEVELOPER',
   description:
-    "I’m Anon Kreethawate. I graduated in Computer Science from Chaopraya University and completed the Generation Junior Software Developer Bootcamp. I have a passion for programming technology, always keen to learn new languages, and I excel at using AI tools like ChatGPT.",
-  resume: "#",
+    'Software Developer | Skilled in Frontend & Backend Development | Passionate about Agile Workflows and Problem-Solving | Committed to Continuous Learning',
+  resume: 'https://drive.google.com/file/d/1cYqkNcTkb-khU8aZpejUcogNrsGJHVZP/view?usp=sharing',
   social: {
-    linkedin: "https://www.linkedin.com/in/anon-k-a1412425b/",
-    github: "https://github.com/nOngMolZ",
+    linkedin: 'https://www.linkedin.com/in/nattawut-wanphen-8690ab21a/',
+    github: 'https://github.com/Phai07?tab=repositories',
   },
-};
+}
 
-export const projects = [
+const projects = [
+  // projects can be added an removed
+  // if there are no projects, Projects section won't show up
+  // {
+  //   name: ' HTML ',
+  //   description:
+  //     'Event Planner was designed with the partier in mind, the one who wants to find fine dinning or a friend to have a good time. Event Planner is the easiest way for anyone to find an event to attend, create or host your own event or browse whats happening in your local area.',
+  //   stack: ['HTML, CSS'],
+  //   sourceCode: 'https://github.com/Phai07/17-Nattawut-colmar',
+  //   livePreview: 'https://17-nattawut-colmar.vercel.app/',
+  // },
   {
-    name: "iOS Apps",
+    name: 'Pharmacy Shop',
     description:
-      "An iOS app developer featured on the Apple App Store with several applications available for iPhone and iPad. His portfolio includes games such as Merge Block - Hexa Puzzle Chess - 2 Multiplayers, Swipe and Unroll the Ball, Solitaire New Fun Classic, XO Tic Tac Toe! Jelly Edition, and Glow Hockey Xtreme Neon. These games cover a variety of genres, including puzzles, strategy, and sports. Arnon's apps demonstrate his versatility and creativity in game development.",
-    stack: ["Unity", "C#", "Construct 2","Game"],
-    livePreview: "https://kerBiy.github.io/web-portfolio",
+      'Since finding pharmacies or clinics can often be inconvenient and challenging for purchasing, we recognized the opportunity to develop a web e-commerce platform. This platform aims to provide customers with a seamless experience in searching for and ordering medicines and medical products quickly and effortlessly. Additionally, it enhances the operational efficiency of pharmacies and clinics.',
+    stack: ['Tailwind CSS','Vite','React js','Express','Nodejs', 'MongoDB','Coulddinary'],
+    sourceCode: 'https://github.com/Gargantua-Saichania-JSD8/GenAIDV1',
+    livePreview: 'https://gen-aidv-1-deploy-q37l.vercel.app/',
   },
-  {
-    name: "Voyege",
-    description:
-      'Voyage is a project developed during the Generation Junior Software Developer Bootcamp. It is a comprehensive travel booking system designed to streamline the process of planning and reserving trips. The system includes features such as destination selection, accommodation booking, itinerary management, and payment processing. This project showcases the integration of various technical skills acquired during the bootcamp, including front-end development, back-end development, and database management. Voyage aims to provide users with an efficient and user-friendly platform for all their travel needs',
-    stack: ["Javascript", "React", "Node.js", "MongoDB"],
-    sourceCode: "https://github.com/Atreides-Group-5",
-  },
-  {
-    name: "Web Developer",
-    description:
-      "A freelance web developer with expertise in HTML, Tailwind CSS, JavaScript, PHP, and MySQL. Specializes in creating and developing web systems and games, delivering tailored solutions that meet client needs. Capable of building dynamic websites and interactive applications with a commitment to high-quality and efficient development practices.",
-    stack: ["HTML", "CSS", "Javascript", "PHP", "MySQL"],
-    livePreview: "https://kruearth.com/",
-  },
-];
+  // {
+  //   name: 'Resource Planner',
+  //   description:
+  //     'Resource Planner is able to distrute the current resource including human resource,time and budget in one company in order to help user to manahe their projects',
+  //   stack: ['html-css-javascript', 'sequelize', 'React'],
+  //   sourceCode: 'https://github.com/stone-com/Resource-Planner',
+  //   livePreview: 'https://resource-planner-group2.herokuapp.com/',
+  // },
+  // {
+  //   name: 'GameStoreData(back end)',
+  //   description:
+  //     'GameStoreData is able to let user retrieve the game from database based on its year and category',
+  //   stack: ['Java 8', 'MySQL', 'React'],
+  //   sourceCode: 'https://github.com/stone-com/Resource-Planner',
+    
+  // },
+  // {
+  //   name: 'Music Store(back end)',
+  //   description:
+  //     'MusicStore is able to direct user to the desired page based on its endpoints by track, album,artist and label',
+  //   stack: ['html-css-javascript', 'sequelize', 'React'],
+  //   sourceCode: 'https://github.com/Morganbb104/M7-project2-musictore-recommendations-Huang_Chengchien',
+  //   livePreview: 'https://cheng32-musicstore-catalog.herokuapp.com/track',
+  // },
+]
 
-export const skills = [
-  "HTML",
-  "CSS",
-  "PHP",
-  "MySQL",
-  "JavaScript",
-  "React",
-  "Node.js",
-  "MongoDB",
-  "Express",
-  "ES6",
-  "Git",
-  "Java",
-  "Python",
-  "Docker" ,
-  "AWS Cloud",
-  "Tailwind CSS",
-  "Bootstrap CSS",
-  "Figma",
-  "VS Code",
-];
+const skills = [
+  // skills can be added or removed
+  // if there are no skills, Skills section won't show up
+  'HTML',
+  'CSS',
+ ' Tailwind CSS',
+  'JavaScript',
+  'TypeScript',
+  'Next.js',
+  'React',
+  'Express',
+  'Node.js',
+  'MySQL',
+  'MongoDB',
+  'Golang',
+  'Git/Github',
+  'Figma',
+  'Trello',
+  'DBeaver',
+  'Postman',
+  'Vercel',
+  'MongoDBCompass',
+  'Docker',
+]
 
-export const contact = {
-  email: "monton.kt@gmail.com",
-};
+const contact = {
+  // email is optional - if left empty Contact section won't show up
+  email: 'wanphen.nw@gmail.com',
+}
+
+export { header, about, projects, skills, contact }

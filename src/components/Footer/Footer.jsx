@@ -6,7 +6,7 @@ const Footer = () => (
       href="https://github.com/kerBiy/web-portfolio"
       className="link footer__link"
     >
-      Copyright &copy; Anon Kreethawate 2024
+      Copyright &copy; Nattawut Wanphen 2024
     </a>
   </footer>
 );
