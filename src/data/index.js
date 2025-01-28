@@ -1,4 +1,4 @@
-import aboutpic from "../components/Access/ME.JPG"
+// import aboutpic from "../components/Access/ME.JPG"
 
 const header = {
   // all the properties are optional - can be left empty or deleted
@@ -7,7 +7,7 @@ const header = {
 }
 
 const about = {
-  photo:aboutpic,
+  // photo:aboutpic,
   // all the properties are optional - can be left empty or deleted
   name: 'NATTAWUT WANPHEN',
   role: 'SOFTWARE DEVELOPER',
